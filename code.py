@@ -1,1 +1,1 @@
-print("Paras koodi ikinä")
+print("Huonoin koodi ikinä")
