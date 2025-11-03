@@ -1,2 +1,2 @@
 # ohtuvarasto
-https://github.com/OWNER/REPOSITORY/actions/workflows/main.yml/badge.svg
+https://github.com/Mriuv/ohtuvarasto/actions/workflows/main.yml/badge.svg
