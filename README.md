@@ -1,2 +1,2 @@
 # ohtuvarasto
-![Workflow badge](https://github.com/Mriuv/ohtuvarasto/actions/workflows/CI/badge.svg)
+![Workflow badge](https://github.com/Mrivu/ohtuvarasto/actions/workflows/main.yml/badge.svg)
