@@ -47,7 +47,7 @@ class TestVarasto(unittest.TestCase):
     def test_otetaan_enemman_kuin_tarjolla(self):
         jaljella = self.varasto2.saldo
         self.assertAlmostEqual(self.varasto2.ota_varastosta(20), jaljella)
-    
+
     def test_varasto_luodaan_oikein(self):
         varasto3 = Varasto(-10,-10)
         self.assertAlmostEqual(varasto3.tilavuus, 0)
@@ -66,6 +66,6 @@ class TestVarasto(unittest.TestCase):
     def test_str_print(self):
         saldo = self.varasto2.saldo
         mahtuu = self.varasto2.paljonko_mahtuu()
-        self.assertAlmostEqual(str(self.varasto2), f"saldo = {saldo}, vielä tilaa {mahtuu}"
+        self.assertAlmostEqual(str(self.varasto2), 
+                               f"saldo = {saldo}, vielä tilaa {mahtuu}"
 )
-
